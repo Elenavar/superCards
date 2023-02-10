@@ -25,8 +25,8 @@
   @media all and (max-width: 720px) {
     background-size: 390px;
   }
-  background-image: url("../images/superbc.png");
-  background-size: 650px;
+  background-image: url("../images/heroinas.png");
+  background-size: 500px;
   background-origin: content-box;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -44,26 +44,38 @@
   height: 90%;
   }
   &__h1 {
-    display: none;
-  }
-  &__img {
-    // background-image: url("../images/woman_crop.png");
-    // background-position: center;
-    // object-fit: cover;
-    // background-size: 300px;
-    // height: 50px;
-    width: 580px;
-
-    margin: 30px 35px 35px 35px;
-    @media all and (min-width: 768px) {
-      /*  width: 419px;
-      height: 105px; */
-      /* margin-top: 50px; */
-      margin: 0px 0px 15px 0px;
-      position: relative;
-
+    color: rgb(255, 0, 0);
+    font-family: 'Signika', sans-serif;
+    text-shadow: 4px 0px 5px rgba(255, 0, 0, 0.877);
+    text-align: center;
+    margin: 20px 5px;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+    &::first-line{
+      word-spacing: 100vw;
     }
   }
+  // &__img {
+  //   background-image: url("../images/woman_crop.png");
+  //   background-position: center;
+  //   object-fit: cover;
+  //   background-size: cover;
+  //   width: 120px;
+  //   height: 120px;
+
+  //   margin: 30px 35px 35px 35px;
+  //   @media all and (max-width: 319px) {
+  //     display: none;
+
+  //   }
+  //   @media all and (min-width: 768px) {
+  //     width: 200px;
+  //     height: 200px;
+  //     /* margin-top: 50px; */
+  //     // margin: 0px 0px 15px 0px;
+  //     // position: relative;
+
+  //   }
+  // }
   &__title {
     display: flex;
     flex-direction: column;
@@ -150,7 +162,6 @@
     background-color: $newBlue;
     color: white;
     border: 1px solid whitesmoke;
-
     @media all and (min-width: 768px) {
       margin: 213px 0 30px 0;
     }
