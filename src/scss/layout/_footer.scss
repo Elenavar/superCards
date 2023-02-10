@@ -1,9 +1,10 @@
 .footerdiv{
 
-  height: 100%;
+  // height: 30%;
 }
 
 .footer {
+  height: 20%;
   background-color: red;
   font-family: $mainFont;
   display: flex;
@@ -13,6 +14,12 @@
   border-top: 1px solid #d8d8d8;
   background-color: $newRed;
 
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  height: 10%;
+
+  }
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
